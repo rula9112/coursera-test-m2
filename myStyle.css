@@ -1,0 +1,18 @@
+body{   font-family: cursive;}
+.bg{
+    background-color: rgb(145, 141, 141);
+    margin: 1%;
+    padding: 0% 0% 1% 1% ;
+    
+}
+.div-title{border: 2px solid #222; margin: 0;
+padding: 1% 4%;}
+.text-wihte{color: white;}
+.pr{
+    clear: both;
+    font-size: 1.2em;
+ 
+}
+.div-title{float: right;}
+h1{text-align: center;margin-bottom: 3%;}
+@media (min-width:992px){.container{margin-left: 15%;}}
