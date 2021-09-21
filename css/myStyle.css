@@ -30,3 +30,5 @@ body{   font-family: cursive;
 display: none;
     }
 }
+.nav li{background:white;
+    border:1px solid black}
