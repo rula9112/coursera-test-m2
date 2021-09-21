@@ -6,27 +6,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>index</title>
       <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="css/font-awesome.min.css">
       <link rel="stylesheet" href="css/myStyle.css">
-
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">   
+        <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
     </head>
     <body>
-    <h1 class="myH1">Our Menu</h1>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3 col-md-5 bg"><h3 class="div-title" style="background-color: salmon;">Beef</h3>
-          <p class="pr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, quibusdam! Maxime impedit, cum, eveniet unde soluta dignissimos nostrum magni ipsum velit rerum rem deleniti possimus distinctio sint quibusdam ullam cupiditate! </p>
-   
-    </div>
-    <div class="col-lg-3 col-md-5 bg"><div class="col-div"><h3 class="div-title text-wihte" style="background-color: tomato;">Chicken</h3>
-      <p class="pr">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad tenetur et consequatur! Fugit aspernatur sed ducimus, deserunt, iste eum ea quaerat ex dolor porro quisquam dolore id qui provident autem. </p>
-  </div>
-</div>
-<div class="col-lg-3 col-md-10 bg"><div class="col-div"><h3 class="div-title" style="background-color: tan;">Sushi</h3>
-  <p class="pr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eligendi iusto laudantium soluta velit, corrupti quae magnam nostrum, quos, nam exercitationem labore quo? A accusamus voluptates harum, laboriosam ratione velit. </p>
-</div>
-</div>
-
-  <script src="js/jQuery.js"></script>       
+   <header>
+       
+       <nav id="header-nav" class="navbar navbar-default">
+           <div class="container">
+               <div class="navbar-header">
+                   <a href="index.html" class="pull-left visible-md visible-lg">
+                       <div id="logo-img">
+                           <img src="images/ourWork test.jpg" alt="logo image">
+                       </div>
+                   </a>
+                   <div  class="navbar-brand">
+                       <a href="index.html"><h1>David Chu's China bistro  </h1></a>
+                      <p><img src="image/start-k-logo.png" alt="kosher"><span>kosher Certified</span></p>
+                   </div>
+               </div>
+               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" aria-expanded="false" data-target="#collapsable-nav">
+                   <span class="sr-only">toggle navigation</span>
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+               </button>
+           
+           <div class="collapse navbar-collapse" id="collapsable-nav">
+               <ul class="nav navbar-nav navbar-right" id="nav-list">
+                   <li>
+                       <a href="#">
+                           <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">Menu
+                       </a>
+                   </li>
+                   <li>
+                    <a href="#">
+                        <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">About
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs">Awards
+                    </a>
+                </li>
+                <li id="phone" class="hidden-xs">
+                    <a href="tel:+963934860783">
+                        <span>+963-934-860-783</span>
+                    </a><div>* We Delever</div>
+                </li>
+               </ul>
+           </div>
+        </div>
+       </nav>
+   </header>
+   <div id="call-btn" class="visible-xs">
+       <a href="tel:+963934860783">
+           <span class="glyphicon glyphicon-earphone"></span>
+           +963-934-860-783
+       </a>
+   </div>
+   <div id="xs-deliver" class="text-center visible-xs">
+       * We Delever
+   </div>
+   <div id="main-content" class="container">
+       <div class="jumbotron">
+           <img src="images/FourSeasonsDamascus.jpg" alt="picture of resturant" class="img-responsive visible-xs">
+       </div>
+   </div>
+         
+<script src="js/jQuery.js"></script>
 <script src="js/bootstrap.min.js"></script>
     </body>
 </html>
