@@ -282,6 +282,15 @@ function insertItemPortionName(html,
   html = insertProperty(html, portionPropName, portionValue);
   return html;
 }
+dc.loadRandomMenuItems = function () {
+  showLoading("#main-content");
+  var Shortname = ['A', 'B', 'C','SP','F','V','DK','VG','CU','NL','PF',];
+  var Random_Short_name = Shortname[Math.random()*Shortname.length | 0]  ;
+
+  $ajaxUtils.sendGetRequest(
+    menuItemsUrl + Random_Short_name,
+    buildAndShowMenuItemsHTML);
+};
 
 
 global.$dc = dc;
