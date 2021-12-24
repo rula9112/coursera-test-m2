@@ -1,0 +1,34 @@
+body{   font-family: cursive;
+    color: black;}
+.bg{
+    background-color: rgb(145, 141, 141);
+    margin: 1%;
+    padding: 0% 0% 1% 1% ;
+    
+}
+.navbar{
+    background-color: #888;
+}
+.navbar-header h1{margin-left: 25px;}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #111;
+}
+.container button{margin: 3%;}
+.menu h3{margin-bottom: 10px;}
+.main-content{padding: 0;}
+.main-content .menu{
+    background-color: #888;
+    padding:0px 35px ;
+    font-weight: bold;
+}
+.navbar-default .navbar-nav > li > a{color: black; text-align: center;}
+@media (max-width:767px) {
+    .main-content{padding: 45px;}
+}
+@media (min-width:767px) {
+    .collapse ul{
+display: none;
+    }
+}
+.nav li{background:white;
+    border:1px solid black}
